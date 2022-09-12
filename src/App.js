@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Table from "./components/Table";
-import "./app.css";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
