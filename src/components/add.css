@@ -1,0 +1,78 @@
+.add {
+  text-align: center;
+  padding: 15px;
+  border: 8px dotted rgba(227, 6, 6, 0.904);
+}
+
+.button-24 {
+  background: #ff4742 !important;
+  border: 1px solid #ff4742 !important;
+  border-radius: 6px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px !important;
+  box-sizing: border-box !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif !important;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center !important;
+  text-rendering: geometricprecision !important;
+  text-transform: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  touch-action: manipulation !important;
+  vertical-align: middle !important;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial !important;
+  background-position: 0 0 !important;
+  color: #ff4742 !important;
+}
+
+.button-24:active {
+  opacity: 0.5 !important;
+}
+.inputs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button-32 {
+  background-color: #fff000 !important;
+  border-radius: 12px;
+  color: #000 !important;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 10vw;
+}
+
+.button-32:not(:disabled):hover,
+.button-32:not(:disabled):focus {
+  outline: 0 !important;
+  background: #f4e603 !important;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+.button-32:disabled {
+  filter: saturate(0.2) opacity(0.5) !important;
+  -webkit-filter: saturate(0.2) opacity(0.5) !important;
+  cursor: not-allowed !important;
+}

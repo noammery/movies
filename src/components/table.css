@@ -1,0 +1,31 @@
+.likeunlike {
+  height: 30px;
+  width: 30px;
+}
+.movielist {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  border: black 2px solid;
+  background-color: rgb(128, 128, 128, 0.3);
+  box-shadow: 2px 2px 2px black;
+}
+
+.movieimg {
+  height: 100px;
+  width: 70px;
+  border: black 2px solid;
+  padding: 0 !important;
+  transition: 1s;
+}
+.movieimg:hover {
+  scale: 1.7;
+}
+.rating {
+  font-weight: bolder;
+  color: red;
+}
+.titlediv {
+  width: 15vw;
+}
